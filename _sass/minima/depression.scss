@@ -1,0 +1,75 @@
+// Variables
+$primary-color: #333; // Dark background
+$secondary-color: #666; // Slightly lighter background
+$text-color: #999; // Lighter text color
+$link-color: #cc0000; // Accent color for links
+
+// Fonts
+$main-font: 'Roboto', sans-serif;
+
+// Base Styles
+body {
+  background-color: $primary-color!important;
+  color: $text-color!important;
+  font-family: $main-font!important;
+}
+
+// Header Styles
+header {
+  background-color: $secondary-color;
+  padding: 1em;
+  text-align: center;
+}
+
+// Navigation Styles
+nav {
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+
+    li {
+      margin: 0 1em;
+
+      a {
+        color: $text-color;
+        text-decoration: none;
+
+        &:hover {
+          color: $link-color;
+        }
+      }
+    }
+  }
+}
+
+// Main Content Styles
+main {
+  padding: 2em;
+
+  h1, h2, h3, h4, h5, h6 {
+    color: $link-color;
+  }
+
+  p {
+    line-height: 1.5;
+  }
+
+  a {
+    color: $link-color;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+// Footer Styles
+footer {
+  background-color: $secondary-color;
+  padding: 1em;
+  text-align: center;
+}
