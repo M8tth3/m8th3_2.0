@@ -20,3 +20,7 @@ courses: { compsci: {week: 14} }
 
 ## CPT Writeup
 [CPT Writeup](https://m8tth3.github.io/m8th3_2.0//2023/02/25/CPT.html) 
+
+## Key Commits
+[DropZone Commit](https://github.com/trevorhuang1/lmc-frontend/commit/accd3ac5fd3623e7ce8d2cbff7e711e00d01d482)
+[Baking Commit](https://github.com/trevorhuang1/lmc-frontend/commit/3c8fc2ea23bd691cd909b9ba391723b6529a9290)
