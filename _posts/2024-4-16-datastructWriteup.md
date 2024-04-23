@@ -81,7 +81,7 @@ Blog JavaScript API fetch code and formatting code to display JSON.
   > Success screen when correct ingredients are put into the baking pan 
   - In JavaScript code, show and describe code that handles failure.  Describe how the code shows failure to the user in the Chrome Browser screen.
 ![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/4fce9e26-e67c-4254-bfb9-ec893b18f6c8)
-> If there is no recipe that matches what is in the baking pan, then a failure alert comes up to notify the user.
+> When the user inputs the ingredients they want to try baking, it sends a GET request to a baking api which contains all possible recipe combinations. Then it, after sorting the ingredients the user inputted into a list, it compares the two lists and if the ingredient doesn't exist it returns as 'failed.'
 ## Optional/Extra, Algorithm Analysis
 In the ML projects, there is a great deal of algorithm analysis. Think about preparing data and predictions.
 
