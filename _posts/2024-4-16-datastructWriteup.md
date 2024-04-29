@@ -21,11 +21,13 @@ Blog Python Model code and SQLite Database.
 
 - From VSCode using SQLite3 Editor, show your unique collection/table in database, display rows and columns in the table of the SQLite database.
 - From VSCode model, show your unique code that was created to initialize table and create test data.
-![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/4ade91d3-0a8e-413d-b67c-11b9eb97b208)
-![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/28060884-3391-4b3c-801d-1a83b2d3ec7e)
+- ![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/4ade91d3-0a8e-413d-b67c-11b9eb97b208)
+
+- ![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/28060884-3391-4b3c-801d-1a83b2d3ec7e)
 - **Initialized Data**
 ![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/e005d500-acd9-491a-b99e-69ed049b75d5)
-> Unique columns that stores user's points and items. Integrated from our LMC CPT Project
+> Unique columns that stores user's points and items. Integrated from our LMC CPT Project, so that whenever a user watches videos they can obtain points and buy items from the shop page from our LMC CPT. 
+
 ### Lists and Dictionaries
 Blog Python API code and use of List and Dictionaries.
 
@@ -82,6 +84,7 @@ Blog JavaScript API fetch code and formatting code to display JSON.
   - In JavaScript code, show and describe code that handles failure.  Describe how the code shows failure to the user in the Chrome Browser screen.
 ![image](https://github.com/M8tth3/m8th3_2.0/assets/64436503/4fce9e26-e67c-4254-bfb9-ec893b18f6c8)
 > When the user inputs the ingredients they want to try baking, it sends a GET request to a baking api which contains all possible recipe combinations. Then it, after sorting the ingredients the user inputted into a list, it compares the two lists and if the ingredient doesn't exist it returns as 'failed.'
+
 ## Optional/Extra, Algorithm Analysis
 In the ML projects, there is a great deal of algorithm analysis. Think about preparing data and predictions.
 
