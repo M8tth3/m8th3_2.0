@@ -52,3 +52,4 @@ anime_data = [
 
 Deployment (Full Stack)
 A complete deployment illustration multiple people using and updating your Full Stack Web Application simultaneously.
+- The user will also be able to have their own ratings on each show and can sort it by those ratings. If the user wants to update their ratings, a PUT request will be sent to the SQL backend and their ratings will be updated.
