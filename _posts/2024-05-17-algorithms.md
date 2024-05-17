@@ -1,12 +1,11 @@
 ---
-layouts: base
-title: Final N@M
-comments: true
-description: Night at the Museum Ideation
-type: tangibles
-courses: { compsci: {week: 14} }
+comments: True
+layout: post
+title: Final Project Plans
+description: The plans for our algorithm
+type: hacks
+courses: {'compsci': {'week': 30}}
 ---
-
 
 ## Overall Project Plans
 For the final night at the museum project, we plan to create an algorithm that sorts anime series by popularity, ratings, number of episodes, genre, and how recently it was released. This will be done by initially parsing the web for a list of anime, then appending it to an array. Then, the array of anime titles will be iterated through, then using a google trends api it will check how many times each anime was searched for in the past year to determine their relevancy/popularity. The value for how many times each anime was searched for will be set as a dictionary value, then, using a sorting function, the dictionary will be ordered from most searches to least searches. Furthermore, for rating popularity, utilizing beautiful soup, a web parser, we can parse an anime site to search for ratings, then utilizing a dictionary we can sort by highest rating. This process can be repeated for genre, and the date of release to filter the results out. Or, there can be an array full of arrays to store the values for each anime. 
@@ -21,7 +20,7 @@ anime_data = [
     ['Demon Slayer', '2019-04-06', 'Action, Fantasy', 8.7],
     ['One Punch Man', '2015-10-05', 'Action, Comedy', 8.8]
 ]
-
+This is what the database rows and columns would probably look like.
 
 ## Requirements
 Loops (Algorithmic)
